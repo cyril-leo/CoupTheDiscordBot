@@ -13,7 +13,7 @@ for i in range(num_players):
     players.append({'name': player_name, 'coins': 2})
 
 # Set up deck of cards
-deck = ['Duke', 'Contessa', 'Ambassador', 'Captain', 'Assassin']
+deck = ['Duke', 'Contessa', 'Ambassador', 'Captain', 'Assassin'] * 3
 random.shuffle(deck)
 
 # Deal cards to players
